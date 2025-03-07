@@ -21,50 +21,50 @@ A to-do list web application built with Django. Users can add, edit, delete, and
 
 2.	Create and activate a virtual environment:
 
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-```
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
 
 3.	Install dependencies:
 
-```bash
-pip install -r requirements.txt
-```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 
 4.	Apply migrations:
 
-```bash
-python manage.py migrate
-```
+   ```bash
+   python manage.py migrate
+   ```
 
 
 5.	Run the development server:
 
-```bash
-python manage.py runserver
-```
+   ```bash
+   python manage.py runserver
+   ```
 
 6.	Open the app in your browser:
 
-http://127.0.0.1:8000/
+   http://127.0.0.1:8000/
 
 
 
 Usage
-•	Add a new task using the "Add New Task" button.
-•	Edit or delete tasks using the respective buttons.
-•	Mark a task as complete, which moves it to the “Completed Tasks” page.
-•	View all completed tasks, grouped by the date they were finished.
+   •	Add a new task using the "Add New Task" button.
+   •	Edit or delete tasks using the respective buttons.
+   •	Mark a task as complete, which moves it to the “Completed Tasks” page.
+   •	View all completed tasks, grouped by the date they were finished.
 
 License
 
-This project is licensed under the MIT License.
+   This project is licensed under the MIT License.
 
 Contributions
 
-Contributions are welcome! Feel free to submit a pull request or open an issue.
+   Contributions are welcome! Feel free to submit a pull request or open an issue.
 
 ⸻
 
