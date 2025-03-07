@@ -19,31 +19,31 @@ A to-do list web application built with Django. Users can add, edit, delete, and
    cd django-to-do-list
    ```
 
-   2.	Create and activate a virtual environment:
-      ```bash
-      python -m venv venv
-      source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-      ```
-   
-   3.	Install dependencies:
-      ```bash
-      pip install -r requirements.txt
-      ```
-   
-   
-   4.	Apply migrations:
-      ```bash
-      python manage.py migrate
-      ```
-   
-   
-   5.	Run the development server:
-      ```bash
-      python manage.py runserver
-      ```
-   
-   6.	Open the app in your browser:
-      http://127.0.0.1:8000/
+2.	Create and activate a virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
+
+3.	Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+
+4.	Apply migrations:
+   ```bash
+   python manage.py migrate
+   ```
+
+
+5.	Run the development server:
+   ```bash
+   python manage.py runserver
+   ```
+
+6.	Open the app in your browser:
+   http://127.0.0.1:8000/
 
 
 
